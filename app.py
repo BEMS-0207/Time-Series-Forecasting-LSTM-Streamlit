@@ -13,7 +13,7 @@ from datetime import timedelta
 import gc
 import plotly.figure_factory as ff
 
-st.set_page_config(layout="wide",page_title="Multi-Step Time Series Forecasting LSTM", page_icon="https://github.com/harshitv804/Time-Series-Forecasting-LSTM-Streamlit/assets/100853494/1f137778-ef9c-45e1-87dd-a3ca6bd79b46")
+st.set_page_config(layout="wide",page_title="DEPARTMENT OF COMPUTER SCIENCE, FACULTY OF COMPUTING, UNIVERSITY OF CALABAR. OHAEGBULAM MMESOMA I. 22/095244209.  Multi-Step Time Series Forecasting LSTM")
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 col3, col4 = st.columns([1,5])
 col1, col2 = st.columns([3,2])
