@@ -166,7 +166,7 @@ def sea_decomp(date_f,input_f,output_f):
         return sea_decomp_data
 
 with col3:
-    st.image("https://github.com/harshitv804/Time-Series-Forecasting-LSTM-Streamlit/assets/100853494/1f137778-ef9c-45e1-87dd-a3ca6bd79b46")
+    st.write("OHAEGBULAM MMESOMA I. 22/095244209")
 
 with col4:
     st.title("Multi-Step Time Series Forecasting LSTM")
