@@ -287,7 +287,7 @@ with col1:
             with st.status('Visualizing Predictions...',expanded=True):
                 st.divider()
                 st.metric(label="Training Loss:", value=st.session_state.model_save[0])
-                st.metric(label="Testing RMSE:", value=int(np.sqrt(mean_squared_error(st.session_state.model_save[2], st.session_state.model_save[1]))))
+                st.metric(label="Testing RMSE:", value= f"{np.sqrt(mean_squared_error(st.session_state.model_save[2], st.session_state.model_save[1])):.4f}")
                 
                 st.divider()
                 fig_pred = go.Figure()
