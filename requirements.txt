@@ -3,3 +3,6 @@ pandas
 plotly
 torch
 numpy
+statsmodels
+scikit-learn
+kaleido
